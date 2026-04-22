@@ -1,0 +1,93 @@
+div {
+    position: relative;
+}
+
+table {
+    display: inline-block;
+    margin: 50px;
+}
+
+td {
+    width: 120px;
+    height: 30px;
+}
+
+.one {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.one td {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.two td {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.three {
+    border: 1px dotted black;
+    border-collapse: collapse;
+}
+
+.three td {
+    border: 1px dotted black;
+}
+
+.four {
+    border: 1px solid #3bc6bf;
+    border-collapse: collapse;
+    margin-left: 180px;
+}
+
+.four td {
+    border: 1px solid #3bc6bf;
+}
+
+.five {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 400px;
+}
+
+.five td {
+    border: 1px solid black;
+}
+
+.special-column {
+    width: 70%;
+    background-color: #dff3f2;
+}
+
+.six {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 180px;
+}
+
+.six td {
+    border: 1px solid black;
+}
+
+.special-row {
+    height: 150px;
+    background-color: #dff3f2;
+}
+
+.seven {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 700px;
+    height: 150px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.seven th,
+.seven td {
+    border: 1px solid black;
+    width: 250px;
+    height: 47px;
+}
