@@ -21,3 +21,23 @@ td {
 caption {
     font-size: xx-large;
 }
+
+input[type="reset"] {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: small;
+    border-radius: 20px;
+    padding: 4px 22px;
+    position: absolute;
+    bottom: 30px;
+    left: 90px;
+
+}
+
+div {
+    position: relative;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+}
